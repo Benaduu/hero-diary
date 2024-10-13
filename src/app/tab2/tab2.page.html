@@ -1,0 +1,8 @@
+<ion-content style="--padding-top: 275px;" *ngIf="classDetailsArray.length">
+  <ion-card *ngFor="let detail of classDetailsArray">
+    <ion-card-header>
+      <ion-card-title>{{detail.title}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>{{detail.content}}</ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,15 @@
+<ion-content style="--padding-top: 275px;" *ngIf="selectedRaceDetails; else noRaceSelected" >
+    <ion-card *ngFor="let detail of raceDetailsArray">
+      <ion-card-header>
+        <ion-card-title>{{ detail.title }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>{{ detail.content }}</p>
+      </ion-card-content>
+    </ion-card>
+
+
+  
+</ion-content>
+<ng-template #noRaceSelected>
+</ng-template>

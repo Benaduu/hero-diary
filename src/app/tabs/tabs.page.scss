@@ -1,0 +1,25 @@
+:root {
+    --ion-color-primary: #4CAF50 !important; /* Mude para a cor desejada */
+    --ion-color-primary-rgb: 76, 175, 80 !important;
+    --ion-color-primary-contrast: #ffffff !important;
+    --ion-color-primary-contrast-rgb: 255, 255, 255 !important;
+    --ion-color-primary-shade: #43a047 !important;
+    --ion-color-primary-tint: #66bb6a !important;
+}  
+
+ion-button {
+    --background: transparent;
+    --color: var(--ion-color-primary);
+  }
+  
+  ion-icon {
+    font-size: 24px;
+    color: var(--ion-color-primary);
+  }
+ion-card {
+  width: 8rem;
+  height: 10rem;
+  --background: #121212;
+  
+}
+  
